@@ -453,6 +453,10 @@ body {
 
 
 
+.entrance__container {
+    margin-bottom: 82px;
+}
+
 .entrance__photos {
     display: flex;
     flex-wrap: wrap;
@@ -493,12 +497,90 @@ body {
     margin: 20px 0;
 }
 
-.entrance__btn {
+.entrance__btn,
+.lobby__btn {
     display: block;
     margin: 0 auto;
 }
 
 
+
+
+
+
+
+.lobby {
+    text-align: center;
+}
+
+.lobby__container {
+    margin-bottom: 82px;
+}
+
+
+.lobby__main-photo img {
+    width: 100%;
+    max-width: 1600px;
+    height: auto;
+    margin: 20px 0;
+}
+
+.lobby__photos {
+    display: none;
+}
+
+
+.lobby__description {
+    text-align: left;
+}
+
+.lobby__paragraph {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.oasis__paragraph,
+.oasis__btn {
+    display: none;
+}
+
+.oasis__photos {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.oasis__main-photo img {
+    margin: 20px 0;
+    width: 100%;
+    max-width: 693px;
+}
+
+.oasis__photo-first {
+    width: 30%;
+}
+
+.oasis__photo-second {
+    margin-top: 65px;
+    width: 50%;
+}
+
+.oasis__photo-first img {
+    width: 57%;
+    max-width: 176px;
+}
+
+.oasis__photo-second img {
+    width: 91%;
+    max-width: 467px;
+}
 
 
 
@@ -661,6 +743,21 @@ body {
         width: 35%;
     }
 
+    .entrance__photo:first-child img {
+        width: auto;
+        height: 243px;
+    }
+    
+    .entrance__photo:nth-child(2) img {
+        width: auto;
+        height: 162px;
+    }
+
+    .entrance__photo:nth-child(3) img {
+        width: auto;
+        height: 89px;
+    }
+
     .entrance__description {
         order: 3;
         width: 35%;
@@ -681,6 +778,91 @@ body {
 
     .entrance__btn {
         margin: 0;
+    }
+
+
+
+
+
+    .lobby__container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .lobby__photos {
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        height: 350px;
+    }
+
+    .lobby__photo-first {
+        width: 100%;
+    }
+
+    .lobby__photo-first img{
+        width: 135px;
+    }
+
+    .lobby__photo-second {
+        width: 45%;
+    }
+
+    .lobby__photo-second img{
+        width: 200px;
+    }
+
+    .lobby__photo-third {
+        width: 45%;
+    }
+
+    .lobby__photo-third img{
+        width: 157px;
+    }
+
+
+    .lobby__description {
+        width: 40%;
+        margin-top: 70px;
+    }
+
+    .lobby__btn {
+        margin: 0;
+    }
+
+
+
+    .oasis__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .oasis__info {
+        width: 40%;
+    }
+    
+    .oasis__main-photo {
+        width: 50%;
+    }
+    .oasis__photos {
+        width: 100%;
+
+    }
+
+    .oasis__photo-second {
+        margin-top: 130px;
+    }
+
+    .oasis__paragraph {
+        margin: 42px 0 22px;
+    }
+
+    .oasis__paragraph,
+    .oasis__btn {
+        display: block;
     }
 }
 
@@ -976,10 +1158,77 @@ body {
         margin: 220px 0;
     }
 
+    .entrance__photo:first-child img {
+        width: 555px;
+        height: 380px;
+    }
+    
+    .entrance__photo:nth-child(2) img {
+        width: 227px;
+        height: 227px;
+    }
 
+    .entrance__photo:nth-child(3) img {
+        height: 108px;
+        width: 208px;
+    }
+
+    .entrance__container {
+        margin-bottom: 220px;
+        height: 675px;
+    }
 
     .entrance__paragraph {
         margin: 102px 0 62px;
+    }
+
+
+
+    .lobby__container {
+        margin-bottom: 220px;
+    }
+
+    
+    .lobby__photos {
+        height: 500px;
+    }
+
+    .lobby__uppertittle {
+        margin: 220px 0 20px;
+    }
+
+    .lobby__main-photo img {
+        margin: 50px 0 70px;
+    }
+    .lobby__paragraph {
+        margin-bottom: 62px;
+    }
+
+    .lobby__photo-first img{
+        width: 185px;
+    }
+
+    .lobby__photo-second img{
+        width: 270px;
+    }
+
+    .lobby__photo-third img{
+        width: 227px;
+    }
+
+
+
+
+
+
+    .oasis__paragraph {
+        margin: 102px 0 62px;
+    }
+
+
+
+    .oasis__photo-first {
+        margin-top: -40px;
     }
 }
 
@@ -1070,8 +1319,42 @@ body {
     }
 
 
+    .entrance__container {
+        height: 825px;
+    }
+
+    .entrance__photo:first-child img {
+        width: 715px;
+        height: 470px;
+    }
+
+    .entrance__photo:nth-child(2) img {
+        width: 288px;
+        height: 287px;
+    }
+    
+    .entrance__photo:nth-child(3) img {
+        width: 249px;
+        height: 156px;
+    }
 
 
+
+    .lobby__photos {
+        height: 700px;
+    }
+
+    .lobby__photo-first img{
+        width: 268px;
+    }
+
+    .lobby__photo-second img{
+        width: 403px;
+    }
+
+    .lobby__photo-third img{
+        width: 316px;
+    }
     
     
    
